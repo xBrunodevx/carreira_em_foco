@@ -16,78 +16,6 @@ body {
   background-size: cover;
 }
 
-form{
-  background: #9b6500;
-  max-width: 600px;
-  height: 500px;
-  padding: 40px;
-  border-radius: 0px;
-  margin-bottom: 30px;
-}
-
-form h1{
-  text-align: center;
-  margin-bottom: 10px;
-  color: #ffffff;
-  font-size: 40px;
-}
-
-form p{
-  font-size: 30px;
-  color: #ffffff;
-  text-align: center;
-  margin-bottom: 25px;  
-}
-
-form .input-single{
-  position: relative;
-  margin: 40px 0;
-}
-
-form .input-single label{
-  position: absolute;
-  left: 0;
-  bottom: 4px;
-  cursor: text;
-  transition: all 0.6s;
-  color: #000000;
-}
-
-form .input-single .input{
-  width: 100%;
-  border: 0;
-  border-bottom: 2px solid #ffffff;
-  padding: 5px;
-  outline: 0;
-  font-size: 16px;
-}
-
-form .input-single .input:focus{
-  border-bottom: 2px solid #ffffff;
-}
-
-form .input-single .input:focus ~ label,
-form .input-single .input:valid ~ label{
-  transform: translateY(-30px);
-  font-size: 12px;
-  color: #000000;
-} 
-
-.btn2{
-  width: 100%;
-  text-align: center;
-}
-
-form input[type=submit]{
-  padding: 10px 40px;
-  border: 0;
-  border-radius: 10px;
-  background-color: #000000;
-  color: #fff;
-  font-size: 14pt;
-  cursor: pointer;
-}
-
 .content {
   padding: 20px;
   min-height: 100%;
@@ -208,7 +136,7 @@ button:hover {
   margin: auto;
   margin-top: 0px;
   margin-bottom: 30px;
-  background-image: url("imagens.img/banner5.png");
+  background-image: url("imagens/banner5.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -554,7 +482,7 @@ footer {
 }
 
 .heroi {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://source.unsplash.com/1600x900/?education,learning') center/cover no-repeat;
+  background: #000000;
   color: #fff;
   text-align: center;
   padding: 100px 20px;
