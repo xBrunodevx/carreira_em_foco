@@ -17,24 +17,3 @@ function proximaImg() {
 
   document.getElementById("radio" + cont).checked = true;
 }
-
-type =
-  "application/ld+json" >
-  {
-    "@context": "https://schema.org",
-    "@type": "EducationalOrganization",
-    name: "Carreira em Foco",
-    url: "https://seusite.com",
-    sameAs: [
-      "https://www.instagram.com/carreiraemfoco.com.br/",
-      "https://www.facebook.com/seu_perfil",
-    ],
-    offers: {
-      "@type": "EducationalOccupationalProgram",
-      name: "Cursos Profissionalizantes",
-      provider: {
-        "@type": "Organization",
-        name: "Carreira em Foco",
-      },
-    },
-  };
